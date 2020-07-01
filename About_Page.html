@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+
+
+	body{
+		background-color: #EAEAEA;
+		margin: 0;
+		padding-top: 185px;
+	}
+
+	div{
+		display: block;
+	}
+
+
+	.main_logo {
+
+		display: block;
+		margin: 10px; 
+		text-align: center;
+		padding-top: 150px;
+	}
+
+	.main_logo img{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.main_logo {
+
+		display: block;
+		margin: 10px; 
+		text-align: center;
+		padding-top: 150px;
+	}
+
+	.main_logo img{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.navibar{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: auto;
+		padding: 1rem;
+		background: #eaeaea;
+		text-align:  center;
+		font-family: 'Montserrat', sans-serif;
+		width: 100%;
+		padding: 0;
+		margin-bottom: 50px;
+
+	}
+
+	.navibar #logo{
+		display: block;
+		line-height: 60px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.navibar #logo img{
+		max-width: 100%;
+		height: auto;
+		vertical-align: middle;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.navibar ul {
+		letter-spacing: 5px;
+		padding: 0;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.navibar ul li{
+		text-align: center;
+		display: inline-block;
+		width: 150px;
+		margin-left: 100px;
+		margin-right: 100px;
+		line-height: 60px;
+	}
+
+	.navibar ul li:hover {
+		background: none;
+	}
+
+	.navibar ul li:hover ul{
+		display:block;
+	}
+
+
+	.navibar ul li a{
+		color: #5D5D5D;
+		font-size: 15px;
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+	.navibar ul li a:hover{
+		font-family: 'Montserrat', sans-serif;
+		text-decoration-line: underline;
+		color:white;
+		font-weight: 500;
+		border-bottom-width: 3px
+		border-bottom-style: solid
+	}
+
+
+	.navibar ul li ul{
+		padding: 0;
+		position: absolute;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: none;
+
+	}
+
+	.navibar ul li ul li {
+		margin-left: 0;
+		margin-right: 0;
+		display: block;
+	}
+
+	.navibar ul li ul li:hover {
+		background-color: #eaeaea;
+	}
+
+
+	.navibar ul li ul li a{
+		display: block !important;
+	}
+
+
+	.Header{
+		color: #5D5D5D;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		width: 100%;	
+	}
+
+	.Header h1{
+		text-align: center;
+		font-size: 20px;
+		font-weight: 300;
+		margin: 0;
+	}
+
+	.Header h2{
+		text-align: center;
+		font-size:30px;
+		font-weight: 400;
+		margin: 0;
+	}
+
+	.Header p{
+		min-width: 450px;
+		text-align: center;
+		line-height: 30px;
+	}
+
+
+	.head_content{
+		margin-top: 50px;
+		text-align: center;
+	}
+
+
+	.content{
+		display: inline-block;
+    	margin:0px; 
+    	padding:0px; 
+    	max-width:800px;
+    	min-height:300px;   
+	}
+
+	.bottom1{
+		color: #5D5D5D;
+		font-family: 'Montserrat', sans-serif;
+	    margin:0 auto;
+	    padding:50px;
+	    max-width:230px;
+	    float:left;
+	    position:relative;
+	}
+
+	.bottom1 h1{
+		line-height: 60px;
+		font-size: 30px;
+		font-weight: 400;
+		border-bottom: 1px solid #5d5d5d;
+	}
+
+	.bottom1 p{
+		text-align: left;
+	}
+	.bottom2{
+		color: #5D5D5D;
+		font-family: 'Montserrat', sans-serif;
+	    margin:0 auto;
+	    padding:50px;
+	    max-width:230px;
+	    float:right;
+	    position:relative;
+	}
+
+	.bottom2 h1{
+		line-height: 60px;
+		font-size: 30px;
+		font-weight: 400;
+		border-bottom: 1px solid #5d5d5d;
+	}
+	.bottom2 p{
+		text-align: left;
+	}
+
+
+	.profile_img{
+		margin-top: 80px;
+		padding-top: 50px;
+		margin-bottom: 20px;
+		display: block;
+		text-align: center;
+		position: center;
+	}
+
+</style>
+
+<body>
+	<div class="navibar">
+			<a href="Main_Page.html" id="logo">
+				<img src="../week13/Home_logo3.png"></a>
+			<div class="container">
+				<ul>
+					<li>
+						<a href="About_Page.html">ABOUT</a> </li>
+					<li>
+						<a href="#">WORKS</a>
+						      <ul>
+							      <li><a href="Products_Page.html">PRODUCTS</a>		</li>
+							      <li><a href="Service_Page.html">SERVICE</a></li>
+							  </ul>
+						</li>
+					<li><a href="Contact_Page.html">CONTACT</a></li>
+				</ul>
+		</div>
+</div>
+
+<div class="profile_img">
+<img src="../week13/Profile_img.png">
+</div>
+
+	<div class="Header"> 
+		<h1> UX / UI DESIGNER , KR</h1>
+		<h2>Jeong Yong Min</h2>
+		<p>I proceed with the design with confidence in the direction I pursue.<br>I have a habit of thinking again from various perspectives in the design process.<br>
+		UX/UI Design with emphasis on user experience.</p>
+	</div>
+
+<div class="head_content">
+
+	<div class="content">
+
+		<div class="bottom1">
+			<h1>Education</h1>
+			<p> Korea Polytechninc University</p>
+		</div>
+
+		<div class="bottom2">
+			<h1>Software Skills</h1>
+			<p> NX10.0</p>
+			<P> Photoshop</P>
+			<p> Illustrator</p>
+			<p> Protopie</p>
+			<p> Adobe XD</p>
+			<P> Cinema 4D</P>
+		</div>
+	</div>
+	
+</div>
+
+</body>
+</html>
