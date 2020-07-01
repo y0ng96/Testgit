@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+<style>
+
+	
+	body{
+		background-color: #EAEAEA;
+
+	}
+
+	div{
+		display: block;
+	}
+
+
+	.main_logo {
+		display: block;
+		margin: 10px; 
+		text-align: center;
+		padding-top: 150px;
+	}
+
+	.main_logo img{
+		width: 400px;
+		height: 350px;
+	}
+
+
+	.navibar{
+		font-family: 'Montserrat', sans-serif;
+		width: 100%;
+		padding: 0;
+		display: inline-block;
+	}
+
+	.navibar #logo{
+		display: block;
+		line-height: 60px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.navibar #logo img{
+		vertical-align: middle;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+
+
+
+	.navibar ul {
+		letter-spacing: 5px;
+		padding: 0;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.navibar ul li{
+		display: inline-block;
+		width: 80px;
+		margin-left: 100px;
+		margin-right: 100px;
+		line-height: 60px;
+	}
+
+	.navibar ul li:hover {background: none;}
+
+	.navibar ul li:hover ul{
+		display:block;
+	}
+
+
+	.navibar ul li a{
+		color: #5D5D5D;
+		font-size: 15px;
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+	.navibar ul li a:hover{
+		font-family: 'Montserrat', sans-serif;
+		text-decoration-line: underline;
+		color:white;
+		font-weight: 500;
+		border-bottom-width: 3px
+		border-bottom-style: solid
+	}
+
+
+	.navibar ul li ul{
+		padding: 0;
+		position: absolute;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+
+		display: none;
+
+	}
+
+	.navibar ul li ul li {
+		margin-left: 0;
+		margin-right: 0;
+		display: block;
+	}
+
+	.navibar ul li ul li:hover {
+		background: none;
+	}
+
+
+	.navibar ul li ul li a{
+		display: block !important;
+	}
+
+
+</style>
+
+<body>
+
+	<div class="navibar">
+			<a href="Main_Page.html" id="logo">
+				<img src="../week13/Home_logo3.png"></a>
+			<ul>
+				<li>
+					<a href="About_Page.html">ABOUT</a> </li>
+				<li>
+					<a href="Works_Page.html">WORKS</a>
+					      <ul>
+						      <li><a href="#">PRODUCTS</a></li>
+						      <li><a href="#">SERVICE</a></li>
+						  </ul>
+					</li>
+				<li><a href="Contact_Page.html">CONTACT</a></li>
+			</ul>
+		</div>
+
+
+
+</html>
