@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+
+
+
+	body{
+		background-color: #EAEAEA;
+		margin: 0;
+		padding-top: 185px;
+	}
+
+	div{
+		display: block;
+	}
+
+
+	.main_logo {
+
+		display: block;
+		margin: 10px; 
+		text-align: center;
+		padding-top: 150px;
+	}
+
+	.main_logo img{
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.navibar{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: auto;
+		padding: 1rem;
+		background: #eaeaea;
+		text-align:  center;
+		font-family: 'Montserrat', sans-serif;
+		width: 100%;
+		padding: 0;
+		margin-bottom: 50px;
+
+	}
+
+	.navibar #logo{
+		display: block;
+		line-height: 60px;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.navibar #logo img{
+		max-width: 100%;
+		height: auto;
+		vertical-align: middle;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.navibar ul {
+		letter-spacing: 5px;
+		padding: 0;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.navibar ul li{
+		text-align: center;
+		display: inline-block;
+		width: 150px;
+		margin-left: 100px;
+		margin-right: 100px;
+		line-height: 60px;
+	}
+
+	.navibar ul li:hover {
+		background: none;
+	}
+
+	.navibar ul li:hover ul{
+		display:block;
+	}
+
+
+	.navibar ul li a{
+		color: #5D5D5D;
+		font-size: 15px;
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+	.navibar ul li a:hover{
+		font-family: 'Montserrat', sans-serif;
+		text-decoration-line: underline;
+		color:white;
+		font-weight: 500;
+		border-bottom-width: 3px
+		border-bottom-style: solid
+	}
+
+
+	.navibar ul li ul{
+		padding: 0;
+		position: absolute;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: none;
+
+	}
+
+	.navibar ul li ul li {
+		margin-left: 0;
+		margin-right: 0;
+		display: block;
+	}
+
+	.navibar ul li ul li:hover {
+		background-color: #eaeaea;
+	}
+
+
+	.navibar ul li ul li a{
+		display: block !important;
+	}
+
+--------------------------------------
+
+
+.product{
+	display: block;
+	min-width: 450px;
+	max-width: 800px;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 50px;
+	text-align: center;
+}
+
+
+.img1{
+
+
+	margin-top: 50px;
+	max-width: 1000px;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	background-size: cover;
+	height: 600px;
+}
+
+
+
+.img2{
+	max-width: 1000px;
+	float: center;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	background-size: cover;
+	height: 700px;
+}
+
+.title{
+	margin-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.name{
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 24px;
+	text-align: center;
+	font-weight: 300;
+}
+
+.explain{
+
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	padding-top: 10px;
+	line-height: 2;
+	margin-bottom: 30px;
+}
+
+
+
+</style>
+
+<body>
+
+
+	<div class="navibar">
+			<a href="Main_Page.html" id="logo">
+				<img src="../week13/Home_logo3.png"></a>
+			<div class="container">
+				<ul>
+					<li>
+						<a href="About_Page.html">ABOUT</a> </li>
+					<li>
+						<a href="#">WORKS</a>
+						      <ul>
+							      <li><a href="Products_Page.html">PRODUCTS</a></li>
+							      <li><a href="Service_Page.html">SERVICE</a></li>
+							  </ul>
+						</li>
+					<li><a href="Contact_Page.html">CONTACT</a></li>
+				</ul>
+			</div>
+	</div>
+
+
+		<div class="img1 col"> 
+			<img src="../week13/Product_img/1.png" style="width: 100%" >
+		</div>
+
+		<div class="product">
+			<div class="title">Obxerver</div>
+			<div class="name"> Dash Cam of Electric Kick Board</div>
+			<div class="explain"> Conceptual Design of Dashcam Products Based on the Electric Kickboard of Xiaomi. Designed with a sophisticated feel based on black and red. </div>
+		</div>
+
+		<div class="img2 col">
+			<img src="../week13/Product_img/2.png" style="width: 100%">
+		</div>
+
+
+
+	
+</body>
+
+
+</html>
